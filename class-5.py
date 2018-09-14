@@ -137,4 +137,16 @@ for i in range(0,5):
     	print("*",end='')
     print("\n")	
 
-            
+#question 12
+f=[]
+print("enter the size of a list:")
+n=int(input())
+print("enter the no. you want to search:")
+y=int(input())
+for i in range(0,n):
+   c=int(input("enter a value:"))
+   f.append(c)
+for i in range(0,n):
+   if f[i] == y:
+      del f[i]
+   print(f[i])            
