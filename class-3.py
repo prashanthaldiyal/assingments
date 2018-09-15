@@ -13,4 +13,7 @@ print(li.count("1"))
 #question 4
 l2=[1,3,2,6,2,7,6,0]
 l2.sort()
-print("the sorted list is:",l2)   
+print("the sorted list is:",l2)
+
+#question 5
+   
