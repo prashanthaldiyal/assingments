@@ -1,5 +1,5 @@
 #question 1
-print("enter values seperated with ",":")
+print("enter values seperated with ',':")
 li=input().split(',')
 print("the list entered is:")
 print(li[:len(li)])
@@ -39,4 +39,35 @@ for i in range(0,len(c)):
 print("the number of odd and even numbers in above list is:")
 print("even :",x)
 print("odd :",y)	    	
-   
+
+#question 7
+t=(1,3,4,5,67,9)
+for i in range(1,len(t)+1):
+    print(t[-i],end=" ")  
+
+#question 8
+j=0
+min=max=t[0]
+for j in range(0,len(t)):
+	if t[j]<min:
+		min=t[j]
+	if t[j]>max:
+		max=t[j]
+print("\nlargest=",max)
+print("\nsmallest=",min)		
+
+#question 9
+print("enter a string:")
+s=input()
+print(s.upper())
+
+#question 10
+print("enter a digit string:")
+d=input()
+print(d.isdigit())
+
+#question 11
+st="hello world"
+s="prashant"
+print(st.replace("world",s))
+
