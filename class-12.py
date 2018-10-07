@@ -11,6 +11,6 @@ w.open(url)
 import os
 from os import path
 op=path.realpath("p2.txt")
-os.rename('p2.txt','p21.jpg')
+os.rename(op,'p21.jpg')
 print("the file is changed")
 
